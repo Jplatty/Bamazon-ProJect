@@ -5,6 +5,10 @@ A command line application that helps customers order products from **Bamazon** 
 * Download the project and CD to project folder and run ```npm install```
 * Then run ```node bamazon.js``` 
 
+## Initial View
+![1 bamazon main page](https://user-images.githubusercontent.com/41643506/51793563-22316c80-2177-11e9-8b86-45cf5d14f74e.png)
+
+
 ## Customers View
 Customers have to choose customer user to order through **Bamazon**
 
