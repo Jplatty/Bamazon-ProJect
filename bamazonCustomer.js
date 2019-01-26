@@ -4,7 +4,6 @@ var mysql = require("mysql");
 var inquirer = require("inquirer");
 
 
-
 var db = {
 
   connectedState: false,
@@ -29,7 +28,7 @@ var db = {
 
       // Your password
 
-      password: "PAqman24",
+      password: "root",
 
       database: "bamazon_db"
 
@@ -211,7 +210,7 @@ function handleCustomerOrder(){
 
     else {
 
-      console.log("Insufficient quantity!!\n","Quantity: ",quantity);
+      console.log(" SORRY! Insufficient quantity!!\n","Quantity: ",quantity);
 
       handleCustomerOrder();
 
